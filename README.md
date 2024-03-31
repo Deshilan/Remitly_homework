@@ -19,8 +19,7 @@ fields are missing.
 ```console
 python.exe .\One_statement.py --File PATH
 ```
-
-</br>If You have muliple policies and want to check one of them, try:
+If You have muliple policies and want to check one of them, try:
 
 ```console
 python.exe .\Many_statements.py --File PATH --Stat POLICY_NUMBER
