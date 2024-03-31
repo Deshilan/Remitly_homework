@@ -39,6 +39,6 @@ Code for this test is in *Edge_cases.py* file. Those edge cases were:
 - Many asterisks,
 - Wrong file structure (something is missing),
 - Very long input.
-</br> Unit tests are manual in this example. I decided to write them because
+</br>Unit tests are manual in this example. I decided to write them because
 there is only one function and input. I saw only few edge cases and generally, in
 this particular situation they didn't take a lot of time.
