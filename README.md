@@ -17,6 +17,7 @@ fields are missing.
 3. Run one of the following commands:
 </br>
 </br> If you want to check policy for standard file (with 1 policy) or just first policy, try:
+
 ```console
 python.exe .\One_statement.py --File PATH
 ```
