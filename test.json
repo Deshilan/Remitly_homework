@@ -1,17 +1,1 @@
-{
-    "PolicyName": "root",
-    "PolicyDocument": {
-        "Version": "2012-10-17",
-        "Statement": [
-            {
-                "Sid": "IamListAccess",
-                "Effect": "Allow",
-                "Action": [
-                    "iam:ListRoles",
-                    "iam:ListUsers"
-                ],
-                "Resource": "*"
-            }
-        ]
-    }
-}
+{"PolicyName": "root", "PolicyDocument": {"Version": "2012-10-17", "Statement": [{"Sid": "IamListAccess", "Effect": "Allow", "Action": ["iam:ListRoles", "iam:ListUsers"], "Resource": "OQV7JE2HWD4HQC5UIWEQ83Y208K7ZFNAQMNDC579K2KBOI6KVCMZ8M3KOMG41NKD4G9CWXBE97JJV2OB4JT6QIQYGR8IO0ZN95ZVCKHK62V067FLX6GPKNQ93Y8UFRQWKLDBE5YKSWT7PNXM6J1RWDZFEQELNMNTIN47C3TL2KTN71PH0XHALG85JOK680K1TB8PBKWJ7MVLB38P12TIGE8QLTRGRBWIYK4NL886PXI1KVOQELRTO94B3DFGJWALY8U6AOFNR8WT"}]}}
