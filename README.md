@@ -32,7 +32,13 @@ python.exe .\Many_statements.py --File PATH --Stat POLICY_NUMBER
 I decided to provide two types of unit tests. First were those with random 
 inputs in "Resource" field ("monkey testing"). Code for them is in *random_unit_tests.py*.
 </br> Also, I do some test for edge cases. JSON files for them are in *Edge_cases_test*.
-Code for this test is in *Edge_cases.py* file.
+Code for this test is in *Edge_cases.py* file. Those edge cases were:
+- Asterisk saved in binary ASCII,
+- Empty file,
+- Empty Resource field,
+- Many asterisks,
+- Wrong file structure (something is missing),
+- Very long input.
 </br> Unit tests are manual in this example. I decided to write them because
 there is only one function and input. I saw only few edge cases and generally, in
 this particular situation they didn't take a lot of time.
