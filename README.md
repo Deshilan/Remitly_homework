@@ -15,7 +15,6 @@ fields are missing.
 1. Clone repository.
 2. Open terminal in main catalogue of project.
 3. Run one of the following commands:
-</br>
 </br> If you want to check policy for standard file (with 1 policy) or just first policy, try:
 ```console
 python.exe .\One_statement.py --File PATH
